@@ -13,4 +13,4 @@ jobs:
       - name: Print GitHub event action
         run: |
           echo "part 1 ${{ github.event.action }}"
-          echo "part 2 ${{ github.event.pull_request.comment }}"
+          echo "part 2 ${{ github.event.payload }}"
